@@ -2,32 +2,36 @@
 ?>
 <section class="section accent">
     <div class="container">
-        <div class="accent-inner">
-            <div>
-                <div class="section-title" style="margin-bottom:18px">
-                    <h2>Atendimento com retirada em domicílio e agendamento flexível</h2>
-                    <p><strong>Agende hoje</strong> e receba atendimento com bônus de limpeza térmica incluído.</p>
+        <div class="section-title center" style="margin-bottom:22px">
+            <h2>Razões para escolher a <span class="hero-accent">MDTEC</span></h2>
+            <p>Atendimento claro, orientado ao que faz sentido para o seu equipamento.</p>
+        </div>
+
+        <div class="reasons" aria-label="Razões para escolher">
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <i data-lucide="timer" class="reason-ico" aria-hidden="true"></i>
+                    <p class="reason-text">Atendimento conforme disponibilidade do dia.<br /><strong>Consulte-nos.</strong></p>
                 </div>
-                <div class="actions">
-                    <a class="btn btn-whatsapp" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
-                        <i data-lucide="sparkles" class="icon"></i>
-                        Chamar no WhatsApp agora mesmo
-                    </a>
+                <div class="reason-card">
+                    <i data-lucide="truck" class="reason-ico" aria-hidden="true"></i>
+                    <p class="reason-text">Retirada e devolução no seu endereço (quando disponível) e atendimento local.</p>
+                </div>
+                <div class="reason-card">
+                    <i data-lucide="credit-card" class="reason-ico" aria-hidden="true"></i>
+                    <p class="reason-text">Condições de pagamento pensadas para facilitar.<br /><strong>Consulte opções.</strong></p>
+                </div>
+                <div class="reason-card">
+                    <i data-lucide="shield-check" class="reason-ico" aria-hidden="true"></i>
+                    <p class="reason-text">Processo com cuidado e transparência, com explicação clara do que será feito.</p>
                 </div>
             </div>
-            <div class="mini-cards" aria-label="Benefícios do atendimento">
-                <div class="mini-card">
-                    <strong>Agendamento Flexível</strong>
-                    <span>Atendimento noturno e finais de semana</span>
-                </div>
-                <div class="mini-card">
-                    <strong>Avaliação inicial</strong>
-                    <span>Avaliação completa sem compromisso</span>
-                </div>
-                <div class="mini-card">
-                    <strong>Retirada em Casa</strong>
-                    <span>Buscamos e entregamos na sua casa</span>
-                </div>
+
+            <div class="reasons-cta">
+                <a class="btn btn-secondary" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
+                    <i data-lucide="message-circle" class="icon"></i>
+                    Solicitar orçamento
+                </a>
             </div>
         </div>
     </div>

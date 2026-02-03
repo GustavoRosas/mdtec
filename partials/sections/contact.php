@@ -56,7 +56,7 @@
                 <div class="card">
                     <h3 style="margin-top:0">Pronto para resolver seu problema?</h3>
                     <p class="small">Entre em contato agora mesmo pelo WhatsApp e agende seu atendimento. Avaliação inicial e orientação clara do começo ao fim.</p>
-                    <a class="btn btn-whatsapp" style="width:100%" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
+                    <a class="btn btn-secondary" style="width:100%" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                         <i data-lucide="message-circle" class="icon"></i>
                         Solicitar agora pelo WhatsApp
                     </a>

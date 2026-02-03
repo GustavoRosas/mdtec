@@ -57,7 +57,7 @@
                 <div class="card">
                     <h3>Ainda tem dúvidas?</h3>
                     <p class="small">Entre em contato conosco pelo WhatsApp e tire todas as suas dúvidas diretamente com nosso atendimento.</p>
-                    <a class="btn btn-whatsapp" style="width:100%" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
+                    <a class="btn btn-secondary" style="width:100%" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                         <i data-lucide="message-circle" class="icon"></i>
                         Chamar no WhatsApp
                     </a>

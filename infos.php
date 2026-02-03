@@ -33,7 +33,6 @@ header('Content-Type: text/html; charset=utf-8');
     <li><strong>Hero</strong> (headline, benefícios e CTA principal + imagem)</li>
     <li><strong>Serviços</strong> (<code>id="services"</code>)</li>
     <li><strong>Seção de oferta/CTA</strong> (fundo “accent” com bônus e CTA WhatsApp)</li>
-    <li><strong>Sobre</strong> (<code>id="about"</code>)</li>
     <li><strong>Depoimentos</strong> (<code>id="testimonials"</code>)</li>
     <li><strong>Métricas / números</strong> (alta satisfação, 500+ atendimentos, resposta rápida)</li>
     <li><strong>Contato</strong> (<code>id="contact"</code>)</li>
@@ -46,7 +45,6 @@ header('Content-Type: text/html; charset=utf-8');
     <p><strong>Itens de menu (desktop):</strong></p>
     <ul>
         <li>Serviços</li>
-        <li>Sobre</li>
         <li>Depoimentos</li>
         <li>Contato</li>
     </ul>

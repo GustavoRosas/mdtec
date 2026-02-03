@@ -25,7 +25,9 @@ $instagramUrl = 'https://instagram.com/mdtecpg';
 $facebookUrl = '#';
 
 $logoUrl = $siteUrl . '/assets/mdtec.png';
-$heroUrl = $siteUrl . '/assets/tech-repair.jpg';
+$heroUrl = $siteUrl . '/assets/tech3.jpeg';
+$heroUrl2 = $siteUrl . '/assets/tech4.jpeg';
+
 
 require __DIR__ . '/partials/head.php';
 require __DIR__ . '/partials/body.php';

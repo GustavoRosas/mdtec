@@ -11,13 +11,12 @@
 
         <nav class="menu" aria-label="Navegação">
             <a href="#services">Serviços</a>
-            <a href="#about">Sobre</a>
             <a href="#testimonials">Depoimentos</a>
             <a href="#contact">Contato</a>
         </nav>
 
         <div class="cta">
-            <a class="btn btn-primary" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
+            <a class="btn btn-secondary" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                 <i data-lucide="smartphone" class="icon"></i>
                 Orçamento sem compromisso
             </a>
@@ -31,7 +30,6 @@
         <div class="container">
             <div class="mobile-links">
                 <a href="#services" data-close-mobile>Serviços</a>
-                <a href="#about" data-close-mobile>Sobre</a>
                 <a href="#testimonials" data-close-mobile>Depoimentos</a>
                 <a href="#contact" data-close-mobile>Contato</a>
                 <a href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener" data-close-mobile>Orçamento sem compromisso (WhatsApp)</a>

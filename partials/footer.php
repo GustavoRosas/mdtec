@@ -17,7 +17,7 @@
                     <?= htmlspecialchars($whatsPhoneDisplay, ENT_QUOTES, 'UTF-8'); ?> • <?= htmlspecialchars($email, ENT_QUOTES, 'UTF-8'); ?><br />
                     <?= htmlspecialchars($addresses, ENT_QUOTES, 'UTF-8'); ?>
                 </p>
-                <a class="btn btn-whatsapp" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener" style="margin-top:8px">
+                <a class="btn btn-secondary" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener" style="margin-top:8px">
                     <i data-lucide="smartphone" class="icon"></i>
                     Orçamento no WhatsApp
                 </a>

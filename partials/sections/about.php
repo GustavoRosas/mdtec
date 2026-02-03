@@ -35,7 +35,7 @@
                         <div class="metric"><strong>Direto</strong><span>com o técnico</span></div>
                     </div>
                     <p class="small" style="margin-top:14px">“Transparência e qualidade técnica são meus pilares”</p>
-                    <a class="btn btn-whatsapp" style="width:100%; margin-top:10px" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
+                    <a class="btn btn-secondary" style="width:100%; margin-top:10px" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                         <i data-lucide="phone-call" class="icon"></i>
                         Falar no WhatsApp
                     </a>
