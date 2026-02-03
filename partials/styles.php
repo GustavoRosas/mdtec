@@ -66,14 +66,14 @@
         .hero-simple-left .hero-cta{justify-content:flex-start}
         .hero-cta-btn{min-width:280px; padding:16px 26px; font-size:16px; letter-spacing:.4px}
 
-        .hero-card{position:relative; border-radius: var(--radius); border:0; background: transparent; box-shadow: var(--shadow); overflow:hidden}
+        .hero-card{position:relative; border-radius: var(--radius); border:0; background: transparent; box-shadow:none; overflow:hidden}
         .hero-card img{width:100%; height:480px; object-fit:cover; display:block; filter:saturate(1.08) contrast(1.06)}
         .hero-carousel{position:relative; width:100%; height:480px; overflow:hidden}
         .hero-track{height:100%; overflow:hidden; padding:18px 18px; scrollbar-width:none}
         .hero-track::-webkit-scrollbar{display:none}
         .hero-track-inner{height:100%; display:flex; width:max-content; will-change: transform}
         .hero-group{height:100%; display:flex; gap:16px; align-items:center; padding-right:16px}
-        .hero-item{flex:0 0 auto; height:100%; border-radius:18px; overflow:hidden; box-shadow: 0 26px 70px rgba(0,0,0,.55)}
+        .hero-item{flex:0 0 auto; height:100%; border-radius:18px; overflow:hidden; box-shadow:none}
         .hero-slide{width:clamp(260px, 78vw, 420px); height:100%; object-fit:cover; display:block}
 
         [data-hero-marquee]{overflow:hidden}
@@ -82,17 +82,17 @@
         [data-hero-marquee]:hover .hero-track-inner{animation-play-state: paused}
         @keyframes hero-marquee{0%{transform: translateX(0)}100%{transform: translateX(-50%)}}
 
-        [data-hero-marquee]::before,
-        [data-hero-marquee]::after{content:""; position:absolute; top:0; bottom:0; width:84px; z-index:2; pointer-events:none}
-        [data-hero-marquee]::before{left:0; background: linear-gradient(90deg, rgba(11,31,51,1), rgba(11,31,51,0))}
-        [data-hero-marquee]::after{right:0; background: linear-gradient(270deg, rgba(11,31,51,1), rgba(11,31,51,0))}
+        [data-hero-marquee] .hero-track{
+            -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+            mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+        }
 
         .hero-nav{position:absolute; top:50%; transform:translateY(-50%); width:44px; height:44px; display:inline-flex; align-items:center; justify-content:center; border-radius:999px; border:1px solid rgba(255,255,255,.14); background: rgba(11,31,51,.55); color: var(--text); cursor:pointer; z-index:3; backdrop-filter: blur(10px)}
         .hero-nav:hover{background: rgba(11,31,51,.72)}
         .hero-prev{left:12px}
         .hero-next{right:12px}
 
-        .overlay{position:absolute; inset:0; pointer-events:none; background: radial-gradient(600px 320px at 30% 15%, rgba(54,182,255,.20), transparent 60%), radial-gradient(600px 420px at 70% 30%, rgba(245,124,0,.16), transparent 62%), linear-gradient(180deg, rgba(11,31,51,.10), rgba(11,31,51,.78))}
+        .overlay{position:absolute; inset:0; pointer-events:none; background: transparent}
         .badge{position:absolute; left:18px; bottom:18px; right:18px; display:flex; align-items:center; justify-content:space-between; gap:10px; padding:14px 14px; border-radius: 16px; border:1px solid rgba(255,255,255,.12); background: rgba(11,31,51,.60); backdrop-filter: blur(10px)}
         .badge strong{font-family:Orbitron, Inter, system-ui; letter-spacing:.4px}
         .badge span{color:var(--muted); font-weight:700; font-size:13px}
