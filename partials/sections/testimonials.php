@@ -44,9 +44,9 @@
         </div>
 
         <div class="numbers" aria-label="Números">
-            <div class="number"><strong>100%</strong><span>Satisfação</span></div>
-            <div class="number"><strong>500+</strong><span>Equipamentos Consertados</span></div>
-            <div class="number"><strong>24h</strong><span>Resposta no WhatsApp</span></div>
+            <div class="number"><strong>Alta</strong><span>Satisfação</span></div>
+            <div class="number"><strong>500+</strong><span>Atendimentos</span></div>
+            <div class="number"><strong>Rápida</strong><span>Resposta no WhatsApp</span></div>
         </div>
     </div>
 </section>

@@ -39,24 +39,24 @@
                 </div>
                 <div class="faq-item" data-open="0">
                     <button class="faq-q" type="button">
-                        Tem garantia no serviço?
+                        Vocês oferecem suporte após o atendimento?
                         <i data-lucide="chevron-down" class="icon chev"></i>
                     </button>
-                    <div class="faq-a">Sim. Trabalhamos com garantia real no pós-venda e suporte contínuo pelo WhatsApp.</div>
+                    <div class="faq-a">Sim. Você conta com suporte no pós-atendimento e acompanhamento pelo WhatsApp.</div>
                 </div>
                 <div class="faq-item" data-open="0">
                     <button class="faq-q" type="button">
-                        Quais tipos de conserto vocês fazem?
+                        Quais tipos de soluções vocês oferecem?
                         <i data-lucide="chevron-down" class="icon chev"></i>
                     </button>
-                    <div class="faq-a">Desde otimização e upgrades até reparos avançados (incluindo placa e solda), sempre com diagnóstico e explicação clara.</div>
+                    <div class="faq-a">Desde otimização e upgrades até serviços avançados (incluindo placa e solda), com diagnóstico e explicação clara.</div>
                 </div>
             </div>
 
             <aside class="faq-cta">
                 <div class="card">
                     <h3>Ainda tem dúvidas?</h3>
-                    <p class="small">Entre em contato conosco pelo WhatsApp e tire todas as suas dúvidas diretamente com nosso especialista.</p>
+                    <p class="small">Entre em contato conosco pelo WhatsApp e tire todas as suas dúvidas diretamente com nosso atendimento.</p>
                     <a class="btn btn-whatsapp" style="width:100%" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                         <i data-lucide="message-circle" class="icon"></i>
                         Chamar no WhatsApp

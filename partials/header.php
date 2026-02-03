@@ -19,7 +19,7 @@
         <div class="cta">
             <a class="btn btn-primary" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                 <i data-lucide="smartphone" class="icon"></i>
-                Orçamento Grátis
+                Orçamento sem compromisso
             </a>
             <button class="mobile-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" id="mobileToggle">
                 <i data-lucide="menu" class="icon"></i>
@@ -34,7 +34,7 @@
                 <a href="#about" data-close-mobile>Sobre</a>
                 <a href="#testimonials" data-close-mobile>Depoimentos</a>
                 <a href="#contact" data-close-mobile>Contato</a>
-                <a href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener" data-close-mobile>Orçamento Grátis (WhatsApp)</a>
+                <a href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener" data-close-mobile>Orçamento sem compromisso (WhatsApp)</a>
             </div>
         </div>
     </div>

@@ -68,6 +68,7 @@
         .badge .mini{display:flex; flex-direction:column; gap:2px}
 
         .section-title{display:flex; flex-direction:column; gap:10px; margin-bottom:28px}
+        .section-title.center{align-items:center; text-align:center}
         .section-title h2{margin:0; font-family:Orbitron, Inter, system-ui; font-size:30px; line-height:1.15}
         .section-title p{margin:0; color:var(--muted); line-height:1.7}
 
@@ -77,6 +78,13 @@
         .card p{margin:0 0 12px; color:var(--muted); line-height:1.6}
         .card ul{margin:0; padding-left:18px; color:rgba(234,240,255,.72)}
         .card li{margin:6px 0}
+
+        .services-split{grid-template-columns: 1.1fr .9fr; align-items:center}
+        .services-media{padding:0; overflow:hidden}
+        .services-img{width:100%; height:360px; object-fit:cover; display:block; filter:saturate(1.05) contrast(1.05)}
+        .services-points{display:grid; gap:18px}
+        .service-point h3{margin:0 0 6px; font-size:16px; letter-spacing:.2px}
+        .service-point p{margin:0; color:var(--muted); line-height:1.7; font-weight:600}
 
         .accent{border-top:1px solid rgba(255,255,255,.10); border-bottom:1px solid rgba(255,255,255,.10); background: radial-gradient(900px 500px at 25% 25%, rgba(54,182,255,.16), transparent 60%), radial-gradient(900px 500px at 80% 30%, rgba(255,138,61,.14), transparent 60%), rgba(255,255,255,.02)}
         .accent-inner{display:grid; grid-template-columns: 1.1fr .9fr; gap:20px; align-items:center}
@@ -136,6 +144,8 @@
 
         @media (max-width: 980px){
             .hero-grid, .accent-inner, .about-grid, .faq, .contact-grid{grid-template-columns: 1fr}
+            .services-split{grid-template-columns: 1fr}
+            .services-img{height:300px}
             .cards{grid-template-columns: 1fr 1fr}
             .mini-cards{grid-template-columns: 1fr}
             .testimonials{grid-template-columns: 1fr}

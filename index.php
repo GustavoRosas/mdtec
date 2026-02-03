@@ -8,12 +8,12 @@ $siteUrl = $scheme . '://' . $host . ($basePath ? $basePath : '');
 
 $brand = 'MDTEC PG';
 $city = 'Ponta Grossa - PR';
-$specialistFull = 'Marcos Diego Severino';
-$specialistShort = 'Marcos Diego';
+$specialistFull = 'MDTEC';
+$specialistShort = 'MDTEC';
 
 $whatsPhoneDisplay = '(42) 98861-7084';
 $whatsPhoneDigitsBR = '5542988617084';
-$whatsText = 'Olá! Quero um orçamento gratuito para manutenção/upgrade. Pode me ajudar?';
+$whatsText = 'Olá! Quero um orçamento sem compromisso para otimização/upgrade. Pode me ajudar?';
 $whatsLink = 'https://wa.me/' . $whatsPhoneDigitsBR . '?text=' . rawurlencode($whatsText);
 
 $email = 'mdtecpg@outlook.com';

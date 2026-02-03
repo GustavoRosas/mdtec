@@ -3,8 +3,8 @@
 <section class="section" id="about">
     <div class="container">
         <div class="section-title">
-            <h2><?= htmlspecialchars($brand, ENT_QUOTES, 'UTF-8'); ?> – Tecnologia com compromisso. Conserto com consciência.</h2>
-            <p><?= htmlspecialchars($specialistFull, ENT_QUOTES, 'UTF-8'); ?> é especialista em manutenção de computadores, notebooks e periféricos em <?= htmlspecialchars($city, ENT_QUOTES, 'UTF-8'); ?>. Atua com honestidade, técnica e atendimento humanizado.</p>
+            <h2><?= htmlspecialchars($brand, ENT_QUOTES, 'UTF-8'); ?> – Tecnologia com compromisso. Atendimento com consciência.</h2>
+            <p><?= htmlspecialchars($specialistFull, ENT_QUOTES, 'UTF-8'); ?> atua com soluções para computadores, notebooks e periféricos em <?= htmlspecialchars($city, ENT_QUOTES, 'UTF-8'); ?>. Atendimento direto, honesto e humanizado.</p>
         </div>
 
         <div class="grid about-grid">
@@ -17,7 +17,7 @@
                     </div>
                     <div class="pillar">
                         <strong>Técnica e Qualidade</strong>
-                        <span>Especialista em reparos avançados, inclusive soldas e placas.</span>
+                        <span>Experiência em serviços avançados, inclusive soldas e placas.</span>
                     </div>
                     <div class="pillar">
                         <strong>Transparência Total</strong>
@@ -25,13 +25,13 @@
                     </div>
                 </div>
             </div>
-            <aside class="profile" aria-label="Cartão do especialista">
+            <aside class="profile" aria-label="Cartão profissional">
                 <div class="card">
                     <h3 style="margin-top:0"><?= htmlspecialchars($specialistFull, ENT_QUOTES, 'UTF-8'); ?></h3>
-                    <p style="margin:0 0 10px; color:var(--muted); font-weight:800">Especialista em Manutenção</p>
+                    <p style="margin:0 0 10px; color:var(--muted); font-weight:800">Atendimento em Tecnologia</p>
                     <div class="metrics" aria-label="Métricas">
                         <div class="metric"><strong>5+ anos</strong><span>de experiência</span></div>
-                        <div class="metric"><strong>100%</strong><span>clientes satisfeitos</span></div>
+                        <div class="metric"><strong>Alta</strong><span>satisfação de clientes</span></div>
                         <div class="metric"><strong>Direto</strong><span>com o técnico</span></div>
                     </div>
                     <p class="small" style="margin-top:14px">“Transparência e qualidade técnica são meus pilares”</p>

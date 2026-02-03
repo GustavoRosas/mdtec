@@ -3,7 +3,7 @@
 <section class="section" id="contact">
     <div class="container">
         <div class="section-title">
-            <h2>Atendimento técnico de confiança e sem enrolação</h2>
+            <h2>Atendimento de confiança, claro e direto</h2>
             <p>Peça já um diagnóstico e agende seu atendimento!</p>
         </div>
 
@@ -55,12 +55,12 @@
             <aside>
                 <div class="card">
                     <h3 style="margin-top:0">Pronto para resolver seu problema?</h3>
-                    <p class="small">Entre em contato agora mesmo pelo WhatsApp e agende seu atendimento. Diagnóstico gratuito, explicação clara e solução técnica de verdade.</p>
+                    <p class="small">Entre em contato agora mesmo pelo WhatsApp e agende seu atendimento. Avaliação inicial e orientação clara do começo ao fim.</p>
                     <a class="btn btn-whatsapp" style="width:100%" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                         <i data-lucide="message-circle" class="icon"></i>
                         Solicitar agora pelo WhatsApp
                     </a>
-                    <div class="note">✅ Resposta rápida • ✅ Agendamento flexível • ✅ Diagnóstico gratuito</div>
+                    <div class="note">✅ Resposta rápida • ✅ Agendamento flexível • ✅ Avaliação inicial</div>
                 </div>
             </aside>
         </div>

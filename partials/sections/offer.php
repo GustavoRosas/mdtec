@@ -5,8 +5,8 @@
         <div class="accent-inner">
             <div>
                 <div class="section-title" style="margin-bottom:18px">
-                    <h2>Atendimento com retirada em domicílio, agendamento flexível e orçamento gratuito!</h2>
-                    <p><strong>Agende hoje</strong> e receba atendimento com bônus de limpeza térmica grátis.</p>
+                    <h2>Atendimento com retirada em domicílio e agendamento flexível</h2>
+                    <p><strong>Agende hoje</strong> e receba atendimento com bônus de limpeza térmica incluído.</p>
                 </div>
                 <div class="actions">
                     <a class="btn btn-whatsapp" href="<?= htmlspecialchars($whatsLink, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
@@ -21,8 +21,8 @@
                     <span>Atendimento noturno e finais de semana</span>
                 </div>
                 <div class="mini-card">
-                    <strong>Diagnóstico Gratuito</strong>
-                    <span>Avaliação completa sem custo</span>
+                    <strong>Avaliação inicial</strong>
+                    <span>Avaliação completa sem compromisso</span>
                 </div>
                 <div class="mini-card">
                     <strong>Retirada em Casa</strong>
